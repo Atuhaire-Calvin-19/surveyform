@@ -1,0 +1,25 @@
+body{ font-family: Georgia, 'Times New Roman', Times, serif;}
+*{ box-sizing: border-box;}
+input[type=text] ,select,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    resize: vertical;}
+input[type=submit]{
+    background-color: green;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: -webkit-grab;}
+input[type=submit]:hover{
+    background-color: blue;}
+ .container{
+     background-color: lightgray;
+     padding: 40px;
+     border: radius 17px;
+ }   
